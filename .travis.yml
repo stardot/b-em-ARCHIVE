@@ -1,0 +1,11 @@
+
+language: c
+matrix:
+    include:
+        - compiler: gcc
+        - compiler: clang
+          env: CFLAGS="-g -O3"
+before_install:
+    - sudo apt-get update -qq
+    - sudo apt-get -y install debhelper autotools-dev dh-autoreconf file liballegro4-dev libopenal-dev libalut-dev zlib1g-dev build-essential
+script: (CFLAGS= ./autogen.sh) && ./configure && make
