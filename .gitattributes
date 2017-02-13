@@ -12,6 +12,13 @@
 *.mm text
 *.pl text
 *.txt text
+*.md text
+COPYING text
+Makefile.am text
+configure.ac text
+src/Makefile.am text
+src/Makefile.mingw text
+src/resid-fp/* text
 
 # Binary files.
 *.bin binary
