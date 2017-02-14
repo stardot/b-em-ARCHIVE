@@ -1,0 +1,17 @@
+﻿---
+AlignEscapedNewlinesLeft: 'true'
+AlignTrailingComments: 'true'
+AllowAllParametersOfDeclarationOnNextLine: 'true'
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: 'false'
+AllowShortLoopsOnASingleLine: 'false'
+AlwaysBreakBeforeMultilineStrings: 'false'
+BreakBeforeBraces: Linux
+IndentCaseLabels: 'false'
+IndentWidth: '8'
+KeepEmptyLinesAtTheStartOfBlocks: 'false'
+NamespaceIndentation: None
+TabWidth: '8'
+UseTab: Always
+
+...
