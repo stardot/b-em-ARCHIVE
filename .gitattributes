@@ -47,3 +47,9 @@ src/resid-fp/* text
 *.rom binary
 *.ssd binary
 *.uef binary
+
+discs/*
+roms/*
+tapes/*
+
+roms/README.md text
